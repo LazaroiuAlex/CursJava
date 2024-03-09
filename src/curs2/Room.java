@@ -6,6 +6,7 @@ public class Room {
 	//variabile
 	private int lungime;
 	private int latime;
+	private String culoare = "ALB"; //homework - variabila
 	
 	//metode
 	public int calculArie() {
@@ -28,6 +29,22 @@ public class Room {
 		this.lungime = lungime; //this.lungime e variabila de la 7
 		this.latime = latime;
 	}
+	
+	//homework - metoda
+	public String afiseazaCuloareDreptunghi() {
+		
+		return culoare;
+		
+	}
+	
+	//homework - constructor
+	public Room(int lungime, int latime, String culoare) {
+		this.lungime = lungime;
+		this.latime = latime;
+		this.culoare = culoare;
+		
+	}
+	
 
 
 }
