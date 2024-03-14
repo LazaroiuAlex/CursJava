@@ -33,9 +33,9 @@ int day;
 			System.out.println("Astazi este sambata");
 		} else if (day == 7) {
 			System.out.println("Astazi este duminica");
-		} else if (day > 7) {
+		} else {
 			System.out.println("Saptamana are doar 7 zile, te rog sa introduci un numar valid");
-		}
+        }
 		
 	}
 
