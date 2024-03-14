@@ -48,7 +48,7 @@ public class ConditionalOperator {
 			System.out.println("Nr 2 este mai mare");
 		}
 		
-		result = (nr1==nr2) ? "Sunt egale": (nr1>nr2) ? "Nr 1 este mai mare" : "Nr 2 este mai mare"
+		result = (nr1==nr2) ? "Sunt egale": (nr1>nr2) ? "Nr 1 este mai mare" : "Nr 2 este mai mare";
 			
 	}
 

@@ -12,7 +12,7 @@ public class ForExample {
 		for(int i=0; i<10; i++) {
 			if(i == 5) {
 				//break;//intrerupe executia buclei
-				continue;
+				continue; //skip cand i ajunge la acea valoare
 			}
 			System.out.println(i);
 		}
