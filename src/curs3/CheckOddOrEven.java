@@ -27,7 +27,7 @@ public class CheckOddOrEven {
 			System.out.println("Number is even!");
 			
 		}else {
-			System.out.println("NUmber is odd!");
+			System.out.println("Number is odd!");
 			
 		}
 		
