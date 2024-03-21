@@ -11,7 +11,7 @@ public class TemperatureConversion {
 		int numberOfTemp = scan.nextInt();
 		double fahrenheit = 0;
 		
-		for(int i=1; i <= numberOfTemp; i++) { // daca i = 0 cere 4 venituri
+		for(int i=1; i <= numberOfTemp; i++) { 
 			System.out.println("What is the temperature that you want to convert ");
 			double temp = scan.nextDouble();
 			
