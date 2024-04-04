@@ -8,7 +8,6 @@ public class TestAgeVerifier {
 		try {
 			obj.checkAgeLimit(6);
 		} catch (InvalidAgeException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
